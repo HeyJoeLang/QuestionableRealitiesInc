@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Source/Minigames/VacuumGhosts/VacuumGhosts.unity
+    guid: 7aa9c2932880f844a9b05c36611356ec
   m_configObjects: {}
