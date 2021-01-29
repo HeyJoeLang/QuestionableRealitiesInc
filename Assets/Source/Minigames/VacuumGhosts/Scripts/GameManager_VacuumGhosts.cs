@@ -29,7 +29,7 @@ public class GameManager_VacuumGhosts : MonoBehaviour
     }
     void StopGhosts()
     {
-        EnemyMovement[] enemies = FindObjectsOfType<EnemyMovement>();
+        GhostMovement[] enemies = FindObjectsOfType<GhostMovement>();
         for(int i = 0; i < enemies.Length; i++)
         {
             enemies[i].speed = 0;
