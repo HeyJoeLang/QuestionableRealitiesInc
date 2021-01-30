@@ -18,7 +18,7 @@ public class lb_Bird : MonoBehaviour {
 	public AudioClip flyAway1;
 	public AudioClip flyAway2;
 
-	public bool fleeCrows = true;
+	public bool fleeCrows = false;
 
 	Animator anim;
 	lb_BirdController controller;
@@ -72,16 +72,6 @@ public class lb_Bird : MonoBehaviour {
 		anim = gameObject.GetComponent<Animator>();
 
 		idleAnimationHash = Animator.StringToHash("Base Layer.Idle");
-		//singAnimationHash = Animator.StringToHash ("Base Layer.sing");
-		//ruffleAnimationHash = Animator.StringToHash ("Base Layer.ruffle");
-		//preenAnimationHash = Animator.StringToHash ("Base Layer.preen");
-		//peckAnimationHash = Animator.StringToHash ("Base Layer.peck");
-		//hopForwardAnimationHash = Animator.StringToHash ("Base Layer.hopForward");
-		//hopBackwardAnimationHash = Animator.StringToHash ("Base Layer.hopBack");
-		//hopLeftAnimationHash = Animator.StringToHash ("Base Layer.hopLeft");
-		//hopRightAnimationHash = Animator.StringToHash ("Base Layer.hopRight");
-		//worriedAnimationHash = Animator.StringToHash ("Base Layer.worried");
-		//landingAnimationHash = Animator.StringToHash ("Base Layer.landing");
 		flyAnimationHash = Animator.StringToHash ("Base Layer.fly");
 		hopIntHash = Animator.StringToHash ("hop");
 		flyingBoolHash = Animator.StringToHash("flying");
@@ -140,19 +130,21 @@ public class lb_Bird : MonoBehaviour {
 		while(anim.GetCurrentAnimatorStateInfo(0).nameHash != flyAnimationHash){
 			yield return 0;
 		}
-
-		//birds fly up and away from their perch for 1 second before orienting to the next target
-		GetComponent<Rigidbody>().AddForce((transform.forward * 50.0f*controller.birdScale)+(transform.up * 100.0f*controller.birdScale));
-		float t = 0.0f;
-		while (t<1.0f){
-			if(!paused){
-				t+= Time.deltaTime;
-				if(t>.2f && !solidCollider.enabled && controller.collideWithObjects){
-					solidCollider.enabled = true;
+		/*
+				//birds fly up and away from their perch for 1 second before orienting to the next target
+				GetComponent<Rigidbody>().AddForce((transform.forward * 50.0f * controller.birdScale) + (transform.up));// * 100.0f*controller.birdScale));
+				float t = 0.0f;
+				while (t<1.0f){
+					if(!paused){
+						t+= Time.deltaTime;
+						if(t>.2f && !solidCollider.enabled && controller.collideWithObjects){
+							solidCollider.enabled = true;
+						}
+					}
+					yield return 0;
 				}
-			}
-			yield return 0;
-		}
+				*/
+		float t = 0.0f;
 		//start to rotate toward target
 		Vector3 vectorDirectionToTarget = (target-transform.position).normalized;
 		Quaternion finalRotation = Quaternion.identity;
@@ -161,8 +153,8 @@ public class lb_Bird : MonoBehaviour {
 		Vector3 forwardStraight;//the forward vector on the xz plane
 		RaycastHit hit;
 		Vector3 tempTarget = target;
-		t = 0.0f;
-
+		t = 1.0f;
+		/*
 		//if the target is directly above the bird the bird needs to fly out before going up
 		//this should stop them from taking off like a rocket upwards
 		if(vectorDirectionToTarget.y>.5f){
@@ -207,11 +199,11 @@ public class lb_Bird : MonoBehaviour {
 				yield return null;
 			}
 		}
-
+		*/
 		finalRotation = Quaternion.identity;
 		startingRotation = transform.rotation;
 		distanceToTarget = Vector3.Distance (transform.position,target);
-
+		
 		//rotate the bird toward the target over time
 		while(transform.rotation != finalRotation || distanceToTarget >= 1.5f){
 			if(!paused){
@@ -301,7 +293,7 @@ public class lb_Bird : MonoBehaviour {
 			}
 			yield return 0;
 		}
-
+		
 		anim.SetFloat (flyingDirectionHash,0);
 		//initiate the landing for the bird to finally reach the target
 		Vector3 vel = Vector3.zero;
@@ -463,17 +455,11 @@ public class lb_Bird : MonoBehaviour {
 			StopCoroutine("FlyToTarget");
 			GetComponent<AudioSource>().Stop();
 			anim.Play(flyAnimationHash);
-			Vector3 farAwayTarget = transform.position;
-			farAwayTarget += new Vector3(Random.Range (-100,100)*controller.birdScale,10*controller.birdScale,Random.Range (-100,100)*controller.birdScale);
+			Vector3 farAwayTarget = controller.FindPositionOffCamera();
 			StartCoroutine("FlyToTarget",farAwayTarget);
 		}
 	}
 
-	void CrowIsClose(){
-		if (fleeCrows && !dead){
-			Flee ();
-		}
-	}
 
 	public void KillBird(){
 		if(!dead){

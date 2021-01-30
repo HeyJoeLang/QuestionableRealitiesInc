@@ -6,12 +6,13 @@ using UnityEngine.UI;
 
 public class GameManager_Droplets : MonoBehaviour
 {
-    float timeTillWin = 60;
+    float timeTillWin = 30;
     float startTime;
     public int hitsLeft = 3;
     public GameObject winCanvas, failCanvas, instructions;
     ClockTimer clockTimer;
     public Text hitsLeftText;
+    bool isUpdatingProgress = true;
 
     private void Start()
     {
@@ -21,14 +22,17 @@ public class GameManager_Droplets : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        float progress = ((Time.time - startTime) / timeTillWin);
-        if(progress >= 1)
+        if(isUpdatingProgress)
         {
-            Win();
-        }
-        else
-        {
-            clockTimer.UpdateProgress(progress);
+            float progress = ((Time.time - startTime) / timeTillWin);
+            if (progress >= 1)
+            {
+                Win();
+            }
+            else
+            {
+                clockTimer.UpdateProgress(progress);
+            }
         }
         hitsLeftText.text = string.Format("{0}",hitsLeft);
     }
@@ -56,11 +60,13 @@ public class GameManager_Droplets : MonoBehaviour
     }
     public void Fail()
     {
+        isUpdatingProgress = false;
         StopDroplets();
         failCanvas.SetActive(true);
     }
     public void Win()
     {
+        isUpdatingProgress = false;
         StopDroplets();
         winCanvas.SetActive(true);
     }
