@@ -210,7 +210,22 @@ ModelImporter:
   - first:
       74: 5042128978748919988
     second: Shoes|grp_transform|Take 001|BaseLayer.001
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body
+    second: {fileID: 2100000, guid: 76026ab79031a6c4cb21465dd709b93f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hair
+    second: {fileID: 2100000, guid: 57af6f3544abc0640bb23b8eae0bacd1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shoes
+    second: {fileID: 2100000, guid: 8c2dd3a7c5a1f814b85a3f3b2b5ab007, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

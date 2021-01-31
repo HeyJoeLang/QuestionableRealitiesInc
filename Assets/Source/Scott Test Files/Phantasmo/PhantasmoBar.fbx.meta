@@ -122,17 +122,17 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Body.001
-    second: {fileID: 2100000, guid: 0cb1a19150c77d04db0edb4e8097f5cd, type: 2}
+    second: {fileID: 2100000, guid: 81a6259d7ad0b91458724fe4a8620f55, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Hair.001
-    second: {fileID: 2100000, guid: fa1c6767b45f08540bd21a01718aca32, type: 2}
+    second: {fileID: 2100000, guid: 1ec2511eb1c2e6b4e824d1941b19f183, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Shoes.001
-    second: {fileID: 2100000, guid: 3176f52e706919f4fae80897d85fb43b, type: 2}
+    second: {fileID: 2100000, guid: 8c2dd3a7c5a1f814b85a3f3b2b5ab007, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
