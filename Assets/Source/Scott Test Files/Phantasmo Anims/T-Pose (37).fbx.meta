@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 1bd9d1c11f6804b459ad8d606929b293
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -2758080905376650149
+    second: Object001|arissa:HeadTop_End|Take 001|BaseLayer
+  - first:
+      74: 744920773465959920
+    second: Object001|arissa:LeftHandIndex5|Take 001|BaseLayer
+  - first:
+      74: 591634223207877620
+    second: Object001|arissa:LeftHandMiddle5|Take 001|BaseLayer
+  - first:
+      74: -638437159594465163
+    second: Object001|arissa:LeftHandPinky5|Take 001|BaseLayer
+  - first:
+      74: 7803373833235572529
+    second: Object001|arissa:LeftHandRing5|Take 001|BaseLayer
+  - first:
+      74: -5276701174132284944
+    second: Object001|arissa:LeftHandThumb5|Take 001|BaseLayer
+  - first:
+      74: -3748864827334264777
+    second: Object001|arissa:RightHandIndex5|Take 001|BaseLayer
+  - first:
+      74: 5892895827010985161
+    second: Object001|arissa:RightHandMiddle5|Take 001|BaseLayer
+  - first:
+      74: 3073147658878473578
+    second: Object001|arissa:RightHandPinky5|Take 001|BaseLayer
+  - first:
+      74: 7999637711290917876
+    second: Object001|arissa:RightHandRing5|Take 001|BaseLayer
+  - first:
+      74: 2661465004889693875
+    second: Object001|arissa:RightHandThumb5|Take 001|BaseLayer
+  - first:
+      74: 8723370936418546541
+    second: Object001|Body|Take 001|BaseLayer
+  - first:
+      74: 6411203229064486468
+    second: Object001|Eyes|Take 001|BaseLayer
+  - first:
+      74: 436012860091653951
+    second: Object001|Geo|Take 001|BaseLayer
+  - first:
+      74: -6130950871910953329
+    second: Object001|Hair|Take 001|BaseLayer
+  - first:
+      74: -1951999145027632924
+    second: Object001|Object001|Take 001|BaseLayer
+  - first:
+      74: 975435368454789055
+    second: Object001|Shoes|Take 001|BaseLayer
+  - first:
+      74: 9204915767596115442
+    second: Object001|swat:HeadTop_End|Take 001|BaseLayer
+  - first:
+      74: 8389132014197453904
+    second: Object001|swat:LeftFootToeBase_End|Take 001|BaseLayer
+  - first:
+      74: 9184249196377109838
+    second: Object001|swat:LeftHandIndex4|Take 001|BaseLayer
+  - first:
+      74: 1898871052172784054
+    second: Object001|swat:LeftHandMiddle4|Take 001|BaseLayer
+  - first:
+      74: 581192906799455105
+    second: Object001|swat:LeftHandPinky4|Take 001|BaseLayer
+  - first:
+      74: 5996196644460637564
+    second: Object001|swat:LeftHandRing4|Take 001|BaseLayer
+  - first:
+      74: -3936794474112661362
+    second: Object001|swat:LeftHandThumb4|Take 001|BaseLayer
+  - first:
+      74: -2439471127099033478
+    second: Object001|swat:RightFootToeBase_End|Take 001|BaseLayer
+  - first:
+      74: 195352063885001033
+    second: Object001|swat:RightHandIndex4|Take 001|BaseLayer
+  - first:
+      74: -3088415122805039806
+    second: Object001|swat:RightHandMiddle4|Take 001|BaseLayer
+  - first:
+      74: -8574046762600825683
+    second: Object001|swat:RightHandPinky4|Take 001|BaseLayer
+  - first:
+      74: 2387991818054416421
+    second: Object001|swat:RightHandRing4|Take 001|BaseLayer
+  - first:
+      74: -2036483254364888216
+    second: Object001|swat:RightHandThumb4|Take 001|BaseLayer
+  - first:
+      74: -5622636228385533790
+    second: Object001|VVTops|Take 001|BaseLayer
+  - first:
+      74: 1343656820968952110
+    second: Shoes|arissa:HeadTop_End|Take 001|BaseLayer
+  - first:
+      74: -1408955749858990842
+    second: Shoes|arissa:LeftHandIndex5|Take 001|BaseLayer
+  - first:
+      74: -6676796663141472366
+    second: Shoes|arissa:LeftHandMiddle5|Take 001|BaseLayer
+  - first:
+      74: 8600582991136141763
+    second: Shoes|arissa:LeftHandPinky5|Take 001|BaseLayer
+  - first:
+      74: 78234802039797910
+    second: Shoes|arissa:LeftHandRing5|Take 001|BaseLayer
+  - first:
+      74: -7628721406418795944
+    second: Shoes|arissa:LeftHandThumb5|Take 001|BaseLayer
+  - first:
+      74: 1671694281676151371
+    second: Shoes|arissa:RightHandIndex5|Take 001|BaseLayer
+  - first:
+      74: 7325203160231426200
+    second: Shoes|arissa:RightHandMiddle5|Take 001|BaseLayer
+  - first:
+      74: 2056311174381794906
+    second: Shoes|arissa:RightHandPinky5|Take 001|BaseLayer
+  - first:
+      74: 8487604775941646291
+    second: Shoes|arissa:RightHandRing5|Take 001|BaseLayer
+  - first:
+      74: 6826035290753462291
+    second: Shoes|arissa:RightHandThumb5|Take 001|BaseLayer
+  - first:
+      74: 372057374480986363
+    second: Shoes|Body|Take 001|BaseLayer
+  - first:
+      74: -7251132237565821903
+    second: Shoes|Eyes|Take 001|BaseLayer
+  - first:
+      74: -1249589004662540254
+    second: Shoes|Geo|Take 001|BaseLayer
+  - first:
+      74: -8569972992581424577
+    second: Shoes|Hair|Take 001|BaseLayer
+  - first:
+      74: 1131545190712192185
+    second: Shoes|Object001|Take 001|BaseLayer
+  - first:
+      74: 5564561076445214279
+    second: Shoes|Shoes|Take 001|BaseLayer
+  - first:
+      74: 5062702579841568031
+    second: Shoes|swat:HeadTop_End|Take 001|BaseLayer
+  - first:
+      74: -6512410892760804800
+    second: Shoes|swat:LeftFootToeBase_End|Take 001|BaseLayer
+  - first:
+      74: 3217273858581687807
+    second: Shoes|swat:LeftHandIndex4|Take 001|BaseLayer
+  - first:
+      74: -7330211167682247799
+    second: Shoes|swat:LeftHandMiddle4|Take 001|BaseLayer
+  - first:
+      74: -3360521257296619434
+    second: Shoes|swat:LeftHandPinky4|Take 001|BaseLayer
+  - first:
+      74: -2965825357123007411
+    second: Shoes|swat:LeftHandRing4|Take 001|BaseLayer
+  - first:
+      74: 8833413489500229679
+    second: Shoes|swat:LeftHandThumb4|Take 001|BaseLayer
+  - first:
+      74: -3169799117053464561
+    second: Shoes|swat:RightFootToeBase_End|Take 001|BaseLayer
+  - first:
+      74: 3924691465783812996
+    second: Shoes|swat:RightHandIndex4|Take 001|BaseLayer
+  - first:
+      74: 8661627407807492950
+    second: Shoes|swat:RightHandMiddle4|Take 001|BaseLayer
+  - first:
+      74: 5292836321502980541
+    second: Shoes|swat:RightHandPinky4|Take 001|BaseLayer
+  - first:
+      74: 7628369944330152048
+    second: Shoes|swat:RightHandRing4|Take 001|BaseLayer
+  - first:
+      74: -5010109352078914267
+    second: Shoes|swat:RightHandThumb4|Take 001|BaseLayer
+  - first:
+      74: 3278830936650863806
+    second: Shoes|VVTops|Take 001|BaseLayer
+  - first:
+      74: 2759260381011012772
+    second: Hair|arissa:HeadTop_End|Take 001|BaseLayer
+  - first:
+      74: 438364254415783578
+    second: Hair|arissa:LeftHandIndex5|Take 001|BaseLayer
+  - first:
+      74: 2312596364211144385
+    second: Hair|arissa:LeftHandMiddle5|Take 001|BaseLayer
+  - first:
+      74: -4138851512894104712
+    second: Hair|arissa:LeftHandPinky5|Take 001|BaseLayer
+  - first:
+      74: -1513310251140899089
+    second: Hair|arissa:LeftHandRing5|Take 001|BaseLayer
+  - first:
+      74: 7388612269063409393
+    second: Hair|arissa:LeftHandThumb5|Take 001|BaseLayer
+  - first:
+      74: -8307822864836434301
+    second: Hair|arissa:RightHandIndex5|Take 001|BaseLayer
+  - first:
+      74: 2619810945174109430
+    second: Hair|arissa:RightHandMiddle5|Take 001|BaseLayer
+  - first:
+      74: -6315309714137743319
+    second: Hair|arissa:RightHandPinky5|Take 001|BaseLayer
+  - first:
+      74: -5456884459709516823
+    second: Hair|arissa:RightHandRing5|Take 001|BaseLayer
+  - first:
+      74: -4988978122585399039
+    second: Hair|arissa:RightHandThumb5|Take 001|BaseLayer
+  - first:
+      74: 8108391289031848914
+    second: Hair|Body|Take 001|BaseLayer
+  - first:
+      74: -3033268356327663876
+    second: Hair|Eyes|Take 001|BaseLayer
+  - first:
+      74: -4375920361583051216
+    second: Hair|Geo|Take 001|BaseLayer
+  - first:
+      74: -6335254878829410863
+    second: Hair|Hair|Take 001|BaseLayer
+  - first:
+      74: 6831805659580232929
+    second: Hair|Object001|Take 001|BaseLayer
+  - first:
+      74: 4895309122782604399
+    second: Hair|Shoes|Take 001|BaseLayer
+  - first:
+      74: -959155758399604009
+    second: Hair|swat:HeadTop_End|Take 001|BaseLayer
+  - first:
+      74: 3866809797373096922
+    second: Hair|swat:LeftFootToeBase_End|Take 001|BaseLayer
+  - first:
+      74: -8361132150973359694
+    second: Hair|swat:LeftHandIndex4|Take 001|BaseLayer
+  - first:
+      74: 600854790654343412
+    second: Hair|swat:LeftHandMiddle4|Take 001|BaseLayer
+  - first:
+      74: 2600666377762441744
+    second: Hair|swat:LeftHandPinky4|Take 001|BaseLayer
+  - first:
+      74: -3118119328505908089
+    second: Hair|swat:LeftHandRing4|Take 001|BaseLayer
+  - first:
+      74: -4652045201940842716
+    second: Hair|swat:LeftHandThumb4|Take 001|BaseLayer
+  - first:
+      74: -7680022245916279394
+    second: Hair|swat:RightFootToeBase_End|Take 001|BaseLayer
+  - first:
+      74: 7970540176695748507
+    second: Hair|swat:RightHandIndex4|Take 001|BaseLayer
+  - first:
+      74: 3170516814984522470
+    second: Hair|swat:RightHandMiddle4|Take 001|BaseLayer
+  - first:
+      74: -4959993457279739052
+    second: Hair|swat:RightHandPinky4|Take 001|BaseLayer
+  - first:
+      74: 7784321761510407023
+    second: Hair|swat:RightHandRing4|Take 001|BaseLayer
+  - first:
+      74: 4639682022864172921
+    second: Hair|swat:RightHandThumb4|Take 001|BaseLayer
+  - first:
+      74: -1081774322309952792
+    second: Hair|VVTops|Take 001|BaseLayer
+  - first:
+      74: 2549833180694024400
+    second: Eyes|arissa:HeadTop_End|Take 001|BaseLayer
+  - first:
+      74: 6103443476316056962
+    second: Eyes|arissa:LeftHandIndex5|Take 001|BaseLayer
+  - first:
+      74: 3398767184174876102
+    second: Eyes|arissa:LeftHandMiddle5|Take 001|BaseLayer
+  - first:
+      74: 3851426724233130093
+    second: Eyes|arissa:LeftHandPinky5|Take 001|BaseLayer
+  - first:
+      74: -3740993483220213895
+    second: Eyes|arissa:LeftHandRing5|Take 001|BaseLayer
+  - first:
+      74: 3590275279302518279
+    second: Eyes|arissa:LeftHandThumb5|Take 001|BaseLayer
+  - first:
+      74: -5243470807613275324
+    second: Eyes|arissa:RightHandIndex5|Take 001|BaseLayer
+  - first:
+      74: -1206292383274804834
+    second: Eyes|arissa:RightHandMiddle5|Take 001|BaseLayer
+  - first:
+      74: -2082935359616661227
+    second: Eyes|arissa:RightHandPinky5|Take 001|BaseLayer
+  - first:
+      74: -990865416145230320
+    second: Eyes|arissa:RightHandRing5|Take 001|BaseLayer
+  - first:
+      74: 2921146041118722149
+    second: Eyes|arissa:RightHandThumb5|Take 001|BaseLayer
+  - first:
+      74: -4299425451255908165
+    second: Eyes|Body|Take 001|BaseLayer
+  - first:
+      74: 5927347131329777399
+    second: Eyes|Eyes|Take 001|BaseLayer
+  - first:
+      74: -4816700562931916742
+    second: Eyes|Geo|Take 001|BaseLayer
+  - first:
+      74: 4135009900622319272
+    second: Eyes|Hair|Take 001|BaseLayer
+  - first:
+      74: -7054719303890875427
+    second: Eyes|Object001|Take 001|BaseLayer
+  - first:
+      74: -1462143119734237410
+    second: Eyes|Shoes|Take 001|BaseLayer
+  - first:
+      74: -3199009166662837583
+    second: Eyes|swat:HeadTop_End|Take 001|BaseLayer
+  - first:
+      74: 7147224695934301466
+    second: Eyes|swat:LeftFootToeBase_End|Take 001|BaseLayer
+  - first:
+      74: 4009725999134145061
+    second: Eyes|swat:LeftHandIndex4|Take 001|BaseLayer
+  - first:
+      74: -1740759288264098065
+    second: Eyes|swat:LeftHandMiddle4|Take 001|BaseLayer
+  - first:
+      74: 3417286742638776642
+    second: Eyes|swat:LeftHandPinky4|Take 001|BaseLayer
+  - first:
+      74: -4181192285170882217
+    second: Eyes|swat:LeftHandRing4|Take 001|BaseLayer
+  - first:
+      74: 1805080744656474824
+    second: Eyes|swat:LeftHandThumb4|Take 001|BaseLayer
+  - first:
+      74: 6886370423771651131
+    second: Eyes|swat:RightFootToeBase_End|Take 001|BaseLayer
+  - first:
+      74: 4531108865107175411
+    second: Eyes|swat:RightHandIndex4|Take 001|BaseLayer
+  - first:
+      74: 2656656452017646360
+    second: Eyes|swat:RightHandMiddle4|Take 001|BaseLayer
+  - first:
+      74: 2529930596989526004
+    second: Eyes|swat:RightHandPinky4|Take 001|BaseLayer
+  - first:
+      74: 5988972065148587779
+    second: Eyes|swat:RightHandRing4|Take 001|BaseLayer
+  - first:
+      74: 8792287891141504568
+    second: Eyes|swat:RightHandThumb4|Take 001|BaseLayer
+  - first:
+      74: 334556300184938615
+    second: Eyes|VVTops|Take 001|BaseLayer
+  - first:
+      74: -6413029770861598783
+    second: Body|arissa:HeadTop_End|Take 001|BaseLayer
+  - first:
+      74: 7196511303371362871
+    second: Body|arissa:LeftHandIndex5|Take 001|BaseLayer
+  - first:
+      74: -4084369369361428618
+    second: Body|arissa:LeftHandMiddle5|Take 001|BaseLayer
+  - first:
+      74: 4741553047254246981
+    second: Body|arissa:LeftHandPinky5|Take 001|BaseLayer
+  - first:
+      74: 746695927086563250
+    second: Body|arissa:LeftHandRing5|Take 001|BaseLayer
+  - first:
+      74: -3052535661646970875
+    second: Body|arissa:LeftHandThumb5|Take 001|BaseLayer
+  - first:
+      74: 3842673950090691268
+    second: Body|arissa:RightHandIndex5|Take 001|BaseLayer
+  - first:
+      74: -8004483797014478736
+    second: Body|arissa:RightHandMiddle5|Take 001|BaseLayer
+  - first:
+      74: 8850851689699955289
+    second: Body|arissa:RightHandPinky5|Take 001|BaseLayer
+  - first:
+      74: 2878853395386223930
+    second: Body|arissa:RightHandRing5|Take 001|BaseLayer
+  - first:
+      74: -8028831937234968044
+    second: Body|arissa:RightHandThumb5|Take 001|BaseLayer
+  - first:
+      74: 1477795084196408254
+    second: Body|Body|Take 001|BaseLayer
+  - first:
+      74: 3399906686108401028
+    second: Body|Eyes|Take 001|BaseLayer
+  - first:
+      74: 8331921969627937711
+    second: Body|Geo|Take 001|BaseLayer
+  - first:
+      74: -6625541166482154412
+    second: Body|Hair|Take 001|BaseLayer
+  - first:
+      74: 6427768168340245311
+    second: Body|Object001|Take 001|BaseLayer
+  - first:
+      74: -5960663922224541073
+    second: Body|Shoes|Take 001|BaseLayer
+  - first:
+      74: -6062738248875073871
+    second: Body|swat:HeadTop_End|Take 001|BaseLayer
+  - first:
+      74: -1722430242040448732
+    second: Body|swat:LeftFootToeBase_End|Take 001|BaseLayer
+  - first:
+      74: 1320666569642643090
+    second: Body|swat:LeftHandIndex4|Take 001|BaseLayer
+  - first:
+      74: -2748622255110231870
+    second: Body|swat:LeftHandMiddle4|Take 001|BaseLayer
+  - first:
+      74: 1963827495320235932
+    second: Body|swat:LeftHandPinky4|Take 001|BaseLayer
+  - first:
+      74: 7723636370800760306
+    second: Body|swat:LeftHandRing4|Take 001|BaseLayer
+  - first:
+      74: 3104628707119388387
+    second: Body|swat:LeftHandThumb4|Take 001|BaseLayer
+  - first:
+      74: -4780479763870576189
+    second: Body|swat:RightFootToeBase_End|Take 001|BaseLayer
+  - first:
+      74: -3397410190303375520
+    second: Body|swat:RightHandIndex4|Take 001|BaseLayer
+  - first:
+      74: -1651602439499557850
+    second: Body|swat:RightHandMiddle4|Take 001|BaseLayer
+  - first:
+      74: 894356903509990907
+    second: Body|swat:RightHandPinky4|Take 001|BaseLayer
+  - first:
+      74: -8518307820899867468
+    second: Body|swat:RightHandRing4|Take 001|BaseLayer
+  - first:
+      74: -7468577549371509794
+    second: Body|swat:RightHandThumb4|Take 001|BaseLayer
+  - first:
+      74: -4387086470503019283
+    second: Body|VVTops|Take 001|BaseLayer
+  - first:
+      74: -7946564937427159446
+    second: VVTops|arissa:HeadTop_End|Take 001|BaseLayer
+  - first:
+      74: -4479506187239873120
+    second: VVTops|arissa:LeftHandIndex5|Take 001|BaseLayer
+  - first:
+      74: 3794554508577037896
+    second: VVTops|arissa:LeftHandMiddle5|Take 001|BaseLayer
+  - first:
+      74: -5824661291830934282
+    second: VVTops|arissa:LeftHandPinky5|Take 001|BaseLayer
+  - first:
+      74: 2294943402221503435
+    second: VVTops|arissa:LeftHandRing5|Take 001|BaseLayer
+  - first:
+      74: -2582846575541733671
+    second: VVTops|arissa:LeftHandThumb5|Take 001|BaseLayer
+  - first:
+      74: -4169857176842267658
+    second: VVTops|arissa:RightHandIndex5|Take 001|BaseLayer
+  - first:
+      74: 4012782847282104788
+    second: VVTops|arissa:RightHandMiddle5|Take 001|BaseLayer
+  - first:
+      74: -3423492539200812424
+    second: VVTops|arissa:RightHandPinky5|Take 001|BaseLayer
+  - first:
+      74: 8430177072509645095
+    second: VVTops|arissa:RightHandRing5|Take 001|BaseLayer
+  - first:
+      74: -7000954803349179383
+    second: VVTops|arissa:RightHandThumb5|Take 001|BaseLayer
+  - first:
+      74: -4662657402013886778
+    second: VVTops|Body|Take 001|BaseLayer
+  - first:
+      74: 8704532723567556326
+    second: VVTops|Eyes|Take 001|BaseLayer
+  - first:
+      74: 4146259644920837357
+    second: VVTops|Geo|Take 001|BaseLayer
+  - first:
+      74: 3951369620797142998
+    second: VVTops|Hair|Take 001|BaseLayer
+  - first:
+      74: 1198163432976078686
+    second: VVTops|Object001|Take 001|BaseLayer
+  - first:
+      74: -5405753671154941971
+    second: VVTops|Shoes|Take 001|BaseLayer
+  - first:
+      74: -1306247429742948429
+    second: VVTops|swat:HeadTop_End|Take 001|BaseLayer
+  - first:
+      74: -7097727342248802540
+    second: VVTops|swat:LeftFootToeBase_End|Take 001|BaseLayer
+  - first:
+      74: -8466306013078370058
+    second: VVTops|swat:LeftHandIndex4|Take 001|BaseLayer
+  - first:
+      74: 8483314942338704800
+    second: VVTops|swat:LeftHandMiddle4|Take 001|BaseLayer
+  - first:
+      74: 2045892216828985406
+    second: VVTops|swat:LeftHandPinky4|Take 001|BaseLayer
+  - first:
+      74: -7603827102344605203
+    second: VVTops|swat:LeftHandRing4|Take 001|BaseLayer
+  - first:
+      74: 7087404736663572637
+    second: VVTops|swat:LeftHandThumb4|Take 001|BaseLayer
+  - first:
+      74: 8683419915774615909
+    second: VVTops|swat:RightFootToeBase_End|Take 001|BaseLayer
+  - first:
+      74: -9209299388793708615
+    second: VVTops|swat:RightHandIndex4|Take 001|BaseLayer
+  - first:
+      74: 7699623110618971538
+    second: VVTops|swat:RightHandMiddle4|Take 001|BaseLayer
+  - first:
+      74: 1197566129048720449
+    second: VVTops|swat:RightHandPinky4|Take 001|BaseLayer
+  - first:
+      74: 1871645990654523301
+    second: VVTops|swat:RightHandRing4|Take 001|BaseLayer
+  - first:
+      74: -3393240350924646649
+    second: VVTops|swat:RightHandThumb4|Take 001|BaseLayer
+  - first:
+      74: 4357497801081087670
+    second: VVTops|VVTops|Take 001|BaseLayer
+  - first:
+      74: -203655887218126122
+    second: mixamo.com
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

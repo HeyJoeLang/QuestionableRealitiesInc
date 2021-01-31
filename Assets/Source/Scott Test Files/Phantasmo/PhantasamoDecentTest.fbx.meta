@@ -5,7 +5,7 @@ ModelImporter:
   internalIDToNameTable:
   - first:
       74: 885944232402757753
-    second: Armature|Action
+    second: Decent
   - first:
       74: -9125523489441110064
     second: Armature|Action.001
@@ -239,7 +239,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Armature|Action
+      name: Decent
       takeName: Armature|Action
       internalID: 0
       firstFrame: 0
