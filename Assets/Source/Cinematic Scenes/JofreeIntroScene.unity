@@ -5821,8 +5821,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a14086d9fe0c27b4cba8d7ccad7972e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firetime: 62
-  duration: 3
+  firetime: 63
+  duration: 2
   shotCamera: {fileID: 531727982}
   editorRevertMode: 0
   runtimeRevertMode: 0
@@ -6476,7 +6476,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firetime: 65
-  duration: 2
+  duration: 5
   shotCamera: {fileID: 363410369}
   editorRevertMode: 0
   runtimeRevertMode: 0
@@ -6750,7 +6750,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 591313797}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.0023015, y: 0.0107438015, z: 1.508371}
+  m_LocalPosition: {x: 0.92, y: -0.002, z: 1.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 721882279}
@@ -15198,7 +15198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dea88cf454d6b69408653729ea66ec34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duration: 67
+  duration: 70
   playbackSpeed: 1
   isSkippable: 1
   isLooping: 0
@@ -23970,7 +23970,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firetime: 60
-  duration: 2
+  duration: 3
   shotCamera: {fileID: 363410369}
   editorRevertMode: 0
   runtimeRevertMode: 0
@@ -24038,7 +24038,7 @@ MonoBehaviour:
         outWeight: 0
       - serializedVersion: 3
         time: 30
-        value: 1.81
+        value: 1.8
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -24062,7 +24062,7 @@ MonoBehaviour:
         outWeight: 0
       - serializedVersion: 3
         time: 30
-        value: 0.81
+        value: 0.5
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -24086,7 +24086,7 @@ MonoBehaviour:
         outWeight: 0
       - serializedVersion: 3
         time: 30
-        value: 4.062
+        value: 3.88
         inSlope: 0
         outSlope: 0
         tangentMode: 0
