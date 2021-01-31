@@ -213,7 +213,22 @@ ModelImporter:
   - first:
       74: -203655887218126122
     second: ShakeFist
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body
+    second: {fileID: 2100000, guid: 5384da0929db5b044b16a59385f789d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hair
+    second: {fileID: 2100000, guid: fe2fbe87930e00b409b8d16b95e5d8ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shoes
+    second: {fileID: 2100000, guid: 16833fd2d79c2d2459971a9fa8d2ca27, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -253,7 +268,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
