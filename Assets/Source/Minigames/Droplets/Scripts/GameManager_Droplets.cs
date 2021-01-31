@@ -1,6 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.Build;
+
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -14,6 +12,7 @@ public class GameManager_Droplets : MonoBehaviour
     public Text timeLeftText;
     bool isUpdatingProgress = false;
     public GameObject DropletSpawner;
+
 
     public ProgressBarPro focusMeter, timeMeter;
 

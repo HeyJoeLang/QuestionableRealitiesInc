@@ -16,6 +16,7 @@ public class GameManager_VacuumGhosts : MonoBehaviour
     int hitsLeft;
     public int totalHits = 5;
     public GameObject Jofree;
+    public AudioClip hitSound;
     private void Start()
     {
         startTime = Time.time;
@@ -47,6 +48,7 @@ public class GameManager_VacuumGhosts : MonoBehaviour
     }
     public void HitHero()
     {
+        GetComponent<AudioSource>().PlayOneShot(hitSound);
         hitsLeft--;
         float hits = (float)hitsLeft / (float)totalHits;
         focusMeter.Value = hits;
