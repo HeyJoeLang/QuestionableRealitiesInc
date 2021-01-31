@@ -6,19 +6,28 @@ using UnityEngine.UI;
 
 public class GameManager_Droplets : MonoBehaviour
 {
-    float timeTillWin = 30;
+    float timeTillWin = 60;
     float startTime;
-    public int hitsLeft = 3;
-    public GameObject winCanvas, failCanvas, instructions;
-    ClockTimer clockTimer;
-    public Text hitsLeftText;
-    bool isUpdatingProgress = true;
+    int hitsLeft;
+    public int totalHits = 5;
+    public GameObject winCanvas, failCanvas, overviewCanvas;
+    public Text timeLeftText;
+    bool isUpdatingProgress = false;
+    public GameObject DropletSpawner;
+
+    public ProgressBarPro focusMeter, timeMeter;
 
     private void Start()
     {
+        overviewCanvas.GetComponent<Animator>().SetTrigger("FadeFromBlack");
         startTime = Time.time;
-        Destroy(instructions, 1);
-        clockTimer = FindObjectOfType<ClockTimer>().GetComponent<ClockTimer>();
+    }
+    public void StartGame()
+    {
+        DropletSpawner.SetActive(true);
+        hitsLeft = totalHits;
+        startTime = Time.time;
+        isUpdatingProgress = true;
     }
     private void FixedUpdate()
     {
@@ -31,14 +40,16 @@ public class GameManager_Droplets : MonoBehaviour
             }
             else
             {
-                clockTimer.UpdateProgress(progress);
+                timeMeter.Value = 1 - progress;
+                timeLeftText.text = string.Format("{0}", (int)(timeTillWin - (Time.time - startTime)));
             }
         }
-        hitsLeftText.text = string.Format("{0}",hitsLeft);
     }
     public void HitHero()
     {
         hitsLeft--;
+        float hits = (float)hitsLeft / (float)totalHits;
+        focusMeter.Value = hits;
         if (hitsLeft == 0)
         {
             Fail();

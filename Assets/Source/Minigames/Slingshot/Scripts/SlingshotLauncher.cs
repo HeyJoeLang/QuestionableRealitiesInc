@@ -22,6 +22,6 @@ public class SlingshotLauncher : MonoBehaviour
     }
     public void Launch(GameObject pellet)
     {
-        Destroy(pellet, 3f);
+        Destroy(pellet, 2f);
     }
 }

@@ -6,6 +6,7 @@ public class WaterDroplet : MonoBehaviour
 {
     ParticleSystem part;
     public List<ParticleCollisionEvent> collisionEvents;
+    public AudioClip splashAudio;
 
     void Start()
     {
@@ -16,10 +17,11 @@ public class WaterDroplet : MonoBehaviour
     void OnParticleCollision(GameObject other)
     {
 
+        Destroy(this.gameObject, 1);
+        GetComponent<AudioSource>().PlayOneShot(splashAudio);
         int numCollisionEvents = part.GetCollisionEvents(other, collisionEvents);
         for(int i = 0; i < numCollisionEvents; i++)
         {
-            Destroy(this.gameObject,1);
         }
 
         if (other.CompareTag("SuperHero"))

@@ -26,7 +26,8 @@ public class GhostMovement : MonoBehaviour
         }
         if(other.transform.CompareTag("SuperHero"))
         {
-            FindObjectOfType<GameManager_VacuumGhosts>().Fail();
+            FindObjectOfType<GameManager_VacuumGhosts>().HitHero();
+            Destroy(this.gameObject);
         }
     }
 }

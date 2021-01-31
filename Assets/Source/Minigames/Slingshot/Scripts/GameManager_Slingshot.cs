@@ -6,26 +6,38 @@ using UnityEngine.UI;
 
 public class GameManager_Slingshot : MonoBehaviour
 {
-    public float timeLeft = 30f;
-    public int birdsLeft = 5;
-    public GameObject winCanvas, failCanvas;//, startCanvas;
-    public Text birdsLeftText;
+    float timeTillWin = 60;
+    float startTime;
+    int hitsLeft;
+    public int totalHits = 5;
+    public GameObject winCanvas, failCanvas, overviewCanvas;
     public Text timeLeftText;
-    bool isGameActive = true;
+    bool isUpdatingProgress = false;
     lb_BirdController birdController;
+    public ProgressBarPro focusMeter, timeMeter;
     void Start()
     {
+        overviewCanvas.GetComponent<Animator>().SetTrigger("FadeFromBlack");
+        startTime = Time.time;
         birdController = FindObjectOfType<lb_BirdController>().GetComponent<lb_BirdController>();
+        birdController.Pause();
+    }
+    public void StartGame()
+    {
+        birdController.AllUnPause();
+        hitsLeft = totalHits;
+        startTime = Time.time;
+        isUpdatingProgress = true;
     }
     void Win()
     {
-        isGameActive = false;
+        isUpdatingProgress = false;
         StopAllBirds();
         winCanvas.SetActive(true);
     }
     void Fail()
     {
-        isGameActive = false;
+        isUpdatingProgress = false;
         StopAllBirds();
         failCanvas.SetActive(true);
     }
@@ -36,26 +48,29 @@ public class GameManager_Slingshot : MonoBehaviour
     }
     public void HitBird(Vector3 position)
     {
-        birdsLeft--;
-        birdsLeftText.text = string.Format("{0}", birdsLeft);
+        hitsLeft--; 
+        float hits = (float)hitsLeft / (float)totalHits;
+        focusMeter.Value = 1-hits;
         birdController.FeatherEmit(position);
-        if (birdsLeft == 0)
+        if (hitsLeft == 0)
         {
             Win();
         }
     }
     private void FixedUpdate()
     {
-
-        if(isGameActive)
+        if (isUpdatingProgress)
         {
-            timeLeft -= Time.deltaTime;
-            if (timeLeft <= 0)
+            float progress = ((Time.time - startTime) / timeTillWin); 
+            if (progress >= 1)
             {
-                timeLeft = 0;
                 Fail();
             }
-            timeLeftText.text = string.Format("{0}", (int)timeLeft);
+            else
+            {
+                timeMeter.Value = 1 - progress;
+                timeLeftText.text = string.Format("{0}", (int)(timeTillWin - (Time.time - startTime)));
+            }
         }
     }
 }
