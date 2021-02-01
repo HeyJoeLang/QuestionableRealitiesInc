@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Source/Scenes/0_MainMenu.unity
+    guid: 8e3db5305f6f68145a83cf739eebd3ff
+  - enabled: 1
     path: Assets/Source/Minigames/VacuumGhosts.unity
     guid: 7aa9c2932880f844a9b05c36611356ec
   - enabled: 1
