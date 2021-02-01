@@ -22324,10 +22324,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firetime: 76.792595
-  Argument: 1
+  Argument: 0
   Type: 0
-  Level: 0
-  LevelName: VacuumGhosts
+  Level: 2
+  LevelName: 2_Ghosts
 --- !u!1001 &1531384165
 PrefabInstance:
   m_ObjectHideFlags: 0

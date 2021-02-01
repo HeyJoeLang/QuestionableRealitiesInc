@@ -9,12 +9,24 @@ EditorBuildSettings:
     path: Assets/Source/Scenes/0_MainMenu.unity
     guid: 8e3db5305f6f68145a83cf739eebd3ff
   - enabled: 1
-    path: Assets/Source/Minigames/VacuumGhosts.unity
-    guid: 7aa9c2932880f844a9b05c36611356ec
+    path: Assets/Source/Scenes/1_Intro.unity
+    guid: cab72d0d1383a654f9f9590b92893926
   - enabled: 1
-    path: Assets/Source/Minigames/Droplets.unity
-    guid: 96534f9a2447c194fb69821dff891531
+    path: Assets/Source/Scenes/2_Ghosts.unity
+    guid: e2e3b2eb52ec9ec47ac81f99bccc1e03
   - enabled: 1
-    path: Assets/Source/Minigames/Slingshot.unity
-    guid: 798bff5f298ecce488f671475f8f1698
+    path: Assets/Source/Scenes/3_War.unity
+    guid: 4b4f39e78b5101b41b35eec66022aebc
+  - enabled: 1
+    path: Assets/Source/Scenes/4_Droplets.unity
+    guid: f48f38e5d276b5e4da5e4d0072fa4742
+  - enabled: 1
+    path: Assets/Source/Scenes/5_SciFi.unity
+    guid: a2e794c2f98a3134b850455b66bf7035
+  - enabled: 1
+    path: Assets/Source/Scenes/6_Slingshot.unity
+    guid: 1db0e5daa0ea2244c9311467a6bd2dda
+  - enabled: 1
+    path: Assets/Source/Scenes/7_Western.unity
+    guid: c16a8e7927aa41b4bbe1c661e006ead6
   m_configObjects: {}

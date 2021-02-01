@@ -9666,7 +9666,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f64fe725ff7ba04eabfe6458c6f9168, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLevel: Droplets
 --- !u!114 &1267288914
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9713,12 +9712,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1267288913}
         m_TargetAssemblyTypeName: NextScene, Assembly-CSharp
-        m_MethodName: LoadNextScene
-        m_Mode: 1
+        m_MethodName: LoadScene
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -9944,7 +9943,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f64fe725ff7ba04eabfe6458c6f9168, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLevel: Droplets
 --- !u!114 &1324706906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9991,12 +9989,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1324706905}
         m_TargetAssemblyTypeName: NextScene, Assembly-CSharp
-        m_MethodName: LoadNextScene
-        m_Mode: 1
+        m_MethodName: LoadScene
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
